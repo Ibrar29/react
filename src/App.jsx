@@ -1,6 +1,7 @@
 import React from 'react'
 import Hello from './Hello'
 import Add from './Add'
+import List from './List'
 
 export default function App() {
   return (<>
@@ -10,6 +11,7 @@ export default function App() {
     <div>
       <Hello/>
       <Add />
+      <List />
     </div>
     </>
   )
