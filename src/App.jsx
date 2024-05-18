@@ -6,7 +6,11 @@ import List from './List'
 export default function App() {
   return (<>
     <div>
-      <h1>Sheikh</h1>
+      <h1 style={
+        {
+          color : 'red'
+        }
+      } >Sheikh </h1>
     </div>
     <div>
       <Hello/>
